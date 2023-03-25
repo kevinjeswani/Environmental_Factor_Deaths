@@ -1,8 +1,8 @@
 # Regression Analysis of Deaths due to Environmental Factors
 ## Summary
-o	Fuzzy-joining of various datasets on deaths due to environmental factors and global macroeconomic indicators
-o	Utilized Auto-ML (PyCaret) for regressor model selection and preliminary hyperparameter selection
-o	Hyperparamter tuning, auto-encoding, cross-validation, & ensembling of RandomForest, Extra Tree, and XGBoost
+-	Fuzzy-joining of various datasets on deaths due to environmental factors and global macroeconomic indicators
+-	Utilized Auto-ML (PyCaret) for regressor model selection and preliminary hyperparameter selection
+-	Hyperparamter tuning, auto-encoding, cross-validation, & ensembling of RandomForest, Extra Tree, and XGBoost
 
 ## Context
 First we take a look at a dataset for air pollutions deaths due over time for different countries. We visualize data and develop the linear regression models on the regional and national level. The linear regression models are valuable at predicting the general trend in deaths due over time and be used to predict future deaths, where past data appears to be highly linear. It has severe limitations for many countries. Polynomial models could be explored. To explore the interaction with other features, we proceed to merge different datasets between death due to environmental factors and socio-demographic/economic factors. We then examine them in 3 tree-based machine learning models.
