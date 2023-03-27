@@ -12,7 +12,7 @@ The set of scripts in the folder 'AirPollution_Scripts' are segmented for the pu
 The following is the suggested order for running the scripts:
 - 'MLProject_AirPollution_Viz_LR.ipynb' - loading the initial Kaggle air pollution deaths dataset, processing, visualizing the base dataset, linear regression examination and future predictions.
 - 'MLProject_DataProcessing_OECD_WB_GBD.ipynb' - loading raw data from world bank and GBD/OECD datasets, cleaning, and merging usable data. We test the use of fuzzy data set merging.
-- 'MLProject_Exploratory_ML_Models.ipynb' - loading the cleaning & merged dataset, testing out KNN regressor, and model selection with PyCaret, and discussion of models/insights in modelling data.
+- 'MLProject_Exploratory_ML_Models.ipynb' - loading the cleaning & merged dataset, model selection with PyCaret, and discussion of models/insights in modelling data.
 - 'MLProject_ML_Models_refined.ipynb' - development of selected machine learning models (Extra Trees, Random Forest, XGBoost), cross-validation, & Ensemble methods; discussion of model results
 
 The aim is to explore the intial dataset (https://www.kaggle.com/datasets/akshat0giri/death-due-to-air-pollution-19902017?resource=download), supplement it, infer trends, and make predictions on future deaths due to environmental factors. 
